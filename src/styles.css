@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    /*PRIMARY COLORS*/
+    --primary-purple: hsl(259, 100%, 65%);
+    --primary-light-red: hsl(0, 100%, 67%);
+
+    /*NEUTRAL COLORS*/
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-off-white: hsl(0, 0%, 94%);
+    --neutral-light-grey: hsl(0, 0%, 86%);
+    --neutral-smokey-grey: hsl(0, 1%, 44%);
+    --neutral-off-black: hsl(0, 0%, 8%);
+    
+}
+
+body {
+    height: 95vh;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--neutral-light-grey);
+}
